@@ -1,4 +1,4 @@
--- *NOTE: I have only practiced this in test environments* -- 
+-- *NOTE: These notes are from experimenting in private test environments* -- 
 
 # Salesforce-ScratchOrg-Notes
 Notes outlining the use of Salesforce scratch orgs
@@ -48,3 +48,4 @@ https://developer.salesforce.com/signup
 ## References
 - [Salesforce Scratch Org Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_unified.htm)
+- [YouTube - Salesforce Developers - Salesforce Environments - Getting Started with Scratch Orgs](https://www.youtube.com/watch?v=RJWZD2qO0Cw)
