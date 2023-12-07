@@ -1,3 +1,5 @@
+-- *NOTE: I have only practiced this in test environments* -- 
+
 # Salesforce-ScratchOrg-Notes
 Notes outlining the use of Salesforce scratch orgs
 
@@ -42,7 +44,7 @@ https://developer.salesforce.com/signup
 - via Command Palette:
     - `SFDX: Remove Deleted and Expired orgs`
 - via CLI
-    > `sf org list --clean --no-prompt`
+    - `sf org list --clean --no-prompt`
 ## References
 - [Salesforce Scratch Org Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_unified.htm)
