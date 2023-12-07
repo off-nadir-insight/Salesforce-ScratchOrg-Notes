@@ -5,16 +5,19 @@ Notes outlining the use of Salesforce scratch orgs
 https://developer.salesforce.com/signup
 
 ## Create a Salesforce project in VS Code
-From your VS Code desktop app terminal, run:
-`sf project generate --name myProjectName`
-(alternate:) From the Command Palette, use `SFDX: Create project`
+- From your VS Code desktop app terminal, run:
+    - `sf project generate --name myProjectName`
+    - (alternate) From the Command Palette, use `SFDX: Create project`
 
 ## Log in to Dev Hub & set it as default
-- `sf org login web --set-default-dev-hub --alias dev-hub`
-- [source](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_org_commands_unified.htm#cli_reference_org_login_web_unified)
+- From the VS Code terminal:
+    - `sf org login web --set-default-dev-hub --alias my-dev-hub`
+    - [source](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_org_commands_unified.htm#cli_reference_org_login_web_unified)
 
-- can use `sf org list` to view a list of all orgs currently authenticated
-- To view information on your current org -- Warning: This command will expose sensitive information that allows for subsequent activity using your current authenticated session.--
+- To view a list of all orgs currently authenticated:
+    - `sf org list`
+- To view information on your current org:
+    > Warning: This command will expose sensitive information that allows for subsequent activity using your current authenticated session.
     - `sf org display`
 
 ## Customize the scratch org definition
@@ -30,6 +33,9 @@ From your VS Code desktop app terminal, run:
     - It will take a few minutes, and provide a new OrgId as well as a Username.
     - running `sf org display` will provide further details -- be warned, this displays senstive access information such as your Access Token
         - your expiration date can be found in this information
+
+## Accessing your scratch org
+- As an authenticated org in VS Code, you should be able to select the Org Alias in the bottom left corner of the application window to change target orgs
 
 ## References
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_unified.htm)
