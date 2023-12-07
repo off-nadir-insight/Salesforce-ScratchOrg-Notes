@@ -39,8 +39,10 @@ https://developer.salesforce.com/signup
 - As an authenticated org in VS Code, you should be able to select the Org Alias in the bottom left corner of the application window to change target orgs
 
 ## Clean up Orgs in VS Code
-- `SFDX: Remove Deleted and Expired orgs`
-
+- via Command Palette:
+    - `SFDX: Remove Deleted and Expired orgs`
+- via CLI
+    > `sf org list --clean --no-prompt`
 ## References
 - [Salesforce Scratch Org Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_unified.htm)
