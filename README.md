@@ -38,4 +38,5 @@ https://developer.salesforce.com/signup
 - As an authenticated org in VS Code, you should be able to select the Org Alias in the bottom left corner of the application window to change target orgs
 
 ## References
+- [Salesforce Scratch Org Referece](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_unified.htm)
