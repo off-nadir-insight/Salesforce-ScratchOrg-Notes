@@ -49,6 +49,11 @@ https://developer.salesforce.com/signup
     - `SFDX: Remove Deleted and Expired orgs`
 - via CLI
     - `sf org list --clean --no-prompt`
+### Delete Scratch org
+#### via alias
+- `sf org delete scratch --target-org my-scratch-org`
+#### via username
+- `sf org delete scratch --target-org test-123456-abcdefg@example.com`
 ## References
 - [Salesforce Scratch Org Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_unified.htm)
