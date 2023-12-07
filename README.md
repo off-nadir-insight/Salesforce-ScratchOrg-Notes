@@ -53,3 +53,4 @@ https://developer.salesforce.com/signup
 - [Salesforce Scratch Org Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_unified.htm)
 - [YouTube - Salesforce Developers - Salesforce Environments - Getting Started with Scratch Orgs](https://www.youtube.com/watch?v=RJWZD2qO0Cw)
+- [Salesforce Trailhead Module - Create and Test our Scratch Org](https://trailhead.salesforce.com/content/learn/projects/quick-start-salesforce-dx/create-and-test-our-scratch-org)
