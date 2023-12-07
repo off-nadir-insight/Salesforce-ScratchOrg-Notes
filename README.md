@@ -6,6 +6,10 @@ Notes outlining the use of Salesforce scratch orgs
 ## Sign up for a developer org
 https://developer.salesforce.com/signup
 
+## Confirm DevHub is enabled
+- From inside the Org -> Setup -> Platform Tools -> Development -> Dev Hub
+    - Confirm `Enable Dev Hub` is set to Enabled
+
 ## Create a Salesforce project in VS Code
 - From your VS Code desktop app terminal, run:
     - `sf project generate --name myProjectName`
