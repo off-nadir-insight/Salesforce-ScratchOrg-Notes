@@ -28,8 +28,9 @@ https://developer.salesforce.com/signup
 
 ## Generate the scratch org
 - From the terminal in VS code, run the following command:
-    - `sf org create scratch --definition-file config/project-scratch-def.json --set-default --alias my-scratch-org-alias`
-    - This will create a scratch org using the parameters defined in your file as well as switch to the newly created org.
+    - `sf org create scratch --definition-file config/project-scratch-def.json --set-default --alias my-scratch-org-alias --duration-days 5`
+    - This will create a scratch org using the parameters defined in your file as well as switch to the newly created org
+        - This org will last for 5 days (default:7 if not specified)
     - It will take a few minutes, and provide a new OrgId as well as a Username.
     - running `sf org display` will provide further details -- be warned, this displays senstive access information such as your Access Token
         - your expiration date can be found in this information
